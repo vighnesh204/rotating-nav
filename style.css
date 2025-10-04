@@ -1,0 +1,188 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #1a2332;
+            color: #222;
+            overflow-x: hidden;
+            margin: 0;
+        }
+        
+        .container {
+            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+            transform-origin: top left;
+            transition: transform 0.5s linear;
+            width: 100vw;
+            min-height: 100vh;
+            padding: 50px;
+        }
+        
+        .container.show-nav {
+            transform: rotate(-20deg);
+        }
+        
+        .circle-container {
+            position: fixed;
+            top: -100px;
+            left: -100px;
+        }
+        
+        .circle {
+            background: linear-gradient(135deg, #1e88e5 0%, #1565c0 100%);
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            position: relative;
+            transition: transform 0.5s linear;
+            box-shadow: 0 4px 20px rgba(30, 136, 229, 0.4);
+        }
+        
+        .container.show-nav .circle {
+            transform: rotate(-70deg);
+        }
+        
+        .circle button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            height: 100px;
+            background: transparent;
+            border: 0;
+            font-size: 25px;
+            color: #fff;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        
+        .circle button:hover {
+            transform: scale(1.1);
+        }
+        
+        .circle button:focus {
+            outline: none;
+        }
+        
+        .circle button#open {
+            left: 60%;
+        }
+        
+        .circle button#close {
+            top: 60%;
+            transform: rotate(90deg);
+            transform-origin: top left;
+        }
+        
+        .container.show-nav + nav li {
+            transform: translate(0);
+            transition-delay: 0.3s;
+        }
+        
+        nav {
+            position: fixed;
+            bottom: 40px;
+            left: 0;
+            z-index: 100;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding-left: 4px;
+        }
+        
+        nav ul li {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #fff;
+            margin: 25px 0;
+            transform: translate(-100%);
+            transition: transform 0.5s ease-in;
+            cursor: pointer;
+            font-weight: 600;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        
+        nav ul li:hover {
+            color: #64b5f6;
+        }
+        
+        nav ul li i {
+            font-size: 20px;
+            margin-right: 10px;
+        }
+        
+        nav ul li + li {
+            margin-left: 15px;
+            transform: translate(-125%);
+        }
+        
+        nav ul li + li + li {
+            margin-left: 30px;
+            transform: translate(-150%);
+        }
+        
+        nav ul li + li + li + li {
+            margin-left: 45px;
+            transform: translate(-175%);
+        }
+        
+        .content img {
+            max-width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+            margin: 20px 0;
+            transition: transform 0.3s ease;
+        }
+        
+        .content img:hover {
+            transform: scale(1.02);
+        }
+        
+        .content {
+            max-width: 1000px;
+            margin: 20px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        .content h1 {
+            margin: 0;
+            color: #1565c0;
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .content small {
+            color: #1976d2;
+            font-style: italic;
+            font-size: 1rem;
+        }
+        
+        .content h3 {
+            color: #1565c0;
+            font-size: 1.8rem;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-left: 4px solid #1e88e5;
+            padding-left: 15px;
+        }
+        
+        .content p {
+            line-height: 1.8;
+            color: #424242;
+            font-size: 1.05rem;
+            text-align: justify;
+        }
+        
+        .content strong {
+            color: #1565c0;
+            font-weight: 600;
+        }
+ 
