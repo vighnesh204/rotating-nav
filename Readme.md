@@ -13,12 +13,12 @@ A beautiful rotating navigation menu tribute page for Giyu Tomioka, the Water Ha
 - 📱 Fully responsive layout
 - ⚡ Smooth CSS transitions
 - 🎯 Clean and modern UI
-
-## 🖼️ Preview
-
-![Desktop view](./pics/desktop-view.png)
-
-![Responsive](./pics/responsive.png)
+<p align="center">
+  <img src="./pics/desktop-view.png" alt="Desktop view" width="700">
+</p>
+<p align="center">
+  <img src="./pics/responsive.png" alt="Responsive" width="400">
+</p>
 
 ## 🛠️ Tech Stack
 
