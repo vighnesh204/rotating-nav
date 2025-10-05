@@ -29,7 +29,7 @@ A beautiful rotating navigation menu tribute page for Giyu Tomioka, the Water Ha
 
 ## 🚀 Demo
 
-[Live Demo](https://yourusername.github.io/water-hashira-rotating-nav/)
+[Live Demo](https://vighnesh204.github.io/rotating-nav/)
 
 ## 📸 Image Credits
 
