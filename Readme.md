@@ -2,8 +2,6 @@
 
 ![Project Banner](tomioka.webp)
 
-> **Day 3 of 50** - 50 Days 50 JavaScript Projects Challenge
-
 A beautiful rotating navigation menu tribute page for Giyu Tomioka, the Water Hashira from Demon Slayer. Features smooth CSS transitions and an interactive circular navigation that rotates the entire page!
 
 ## ✨ Features
@@ -74,6 +72,5 @@ Feel free to fork this project and add your own improvements! Suggestions and fe
 
 **Made with 💙 by [Vighnesh Borhade]**
 
-*Part of #50Days50Projects Challenge*
 
 
